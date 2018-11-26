@@ -1,0 +1,12 @@
+D/CoreSupport////
+/startup_stm32f10x_cl.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/startup_stm32f10x_hd.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/startup_stm32f10x_hd_vl.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/startup_stm32f10x_ld.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/startup_stm32f10x_ld_vl.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/startup_stm32f10x_md.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/startup_stm32f10x_md_vl.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/startup_stm32f10x_xl.s/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/stm32f10x.h/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/system_stm32f10x.c/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION
+/system_stm32f10x.h/1.1.1.1/Wed Sep 26 00:57:13 2018/-ko/TER260DIVISION

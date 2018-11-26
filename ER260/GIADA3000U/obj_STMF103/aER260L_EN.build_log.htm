@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jdb Administrator, jdb, LIC=UJWMM-X0BKA-UG07Q-NMRPK-X7RGW-GKR2M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\ER260L_DIVISION\ER260\GIADA3000U\GIADA3000U.uvprojx
+Project File Date:  09/26/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'ER260LEN'
+compiling Fixed.c...
+..\ER260_China\EOSCLCD\bios.h(528): warning:  #47-D: incompatible redefinition of macro "LCD10_SetFlag" (declared at line 29 of "..\STM32F103Driver\USER\inc\led_customer.h")
+  #define LCD10_SetFlag(a)  {}
+..\ER260_China\EOSCLCD\CHNDisp.h(115): warning:  #1295-D: Deprecated declaration RecallScreen - give arg types
+  extern void RecallScreen();
+..\ER260_China\EOSCLCD\Fixed.c(118): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+          
+ispSt0(ApplVar.ModeHead);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(119): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(Msg[
+OUGUADAN].str,
+CREENWD-6,
+TATELINE);//??×´Ì¬????Ê¾?Ð¹Òµ? //RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(332): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                  
+ispSt2(EntryBuffer + ENTRYSIZE - INPUTWIDTH - 1);
+..\ER260_China\EOSCLCD\Fixed.c(420): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          DispStrXY(p,0,0xff);//ccr2017-03-17
+..\ER260_China\EOSCLCD\Fixed.c(496): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                          
+ispSt1(Msg[GBDPJGE].str);  //RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(501): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              DispStrXY(Msg[
+BPLUJGE].str,0,0);//ccr2016-01-18
+..\ER260_China\EOSCLCD\Fixed.c(513): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              
+ispSt1(Msg[ZJKCUN].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(522): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              
+ispSt1(Msg[JSHKCUN].str);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(530): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+                              DispStrXY(Msg[
+JIAKUCUN+ApplVar.FInv-1].str,0,0);//ccr2016-01-18
+..\ER260_China\EOSCLCD\Fixed.c(713): warning:  #167-D: argument of type "const char *" is incompatible with parameter of type "const uint8_t *"
+          
+ispSt2(Msg[CHFDYJZU].str);
+..\ER260_China\EOSCLCD\Fixed.c(730): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+              
+ispSt2C(temp);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c(764): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          PrintAmt(ApplVar.Tend.Name, &ApplVar.SubTotal);
+..\ER260_China\EOSCLCD\Fixed.c(273): warning:  #177-D: variable "sLp" was declared but never referenced
+      BYTE SaveRGNumber,saveCp, SaveSP,sLp;
+..\ER260_China\EOSCLCD\Fixed.c(275): warning:  #177-D: variable "lastEJ" was declared but never referenced
+      ULONG lastEJ;
+..\ER260_China\EOSCLCD\Fixed.c(948): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const uint8_t *"
+                          
+ispSt2(EntryBuffer+ENTRYSIZE-INPUTWIDTH-1);//RG-DISPLAY
+..\ER260_China\EOSCLCD\Fixed.c: 17 warnings, 0 errors
+linking...
+Program Size: Code=227728 RO-data=94080 RW-data=1336 ZI-data=113544  
+FromELF: creating hex file...
+".\obj_STMF103\aER260L_EN.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\ER260L_DIVISION\ER260\GIADA3000U\RTE
+  D:\keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
